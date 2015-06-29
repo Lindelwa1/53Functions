@@ -19,6 +19,12 @@ TestMyCode.run("testing hello_joe function", function(assert){
 TestMyCode.run("testing number_list function", function(assert){ 
    var result = number_list(4);
    
-    assert.equals[1,2,3,4].toString().result, "testing number_list function");
+    assert.equals([1,2,3,4].toString(), result.toString(), "testing number_list function");
+});
+
+TestMyCode.run("testing sum_numbers function", function(assert){ 
+   var result = sum_numbers(4);
+   
+    assert.equals(10, result, "testing sum_numbers function");
 });
 

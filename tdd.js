@@ -28,7 +28,7 @@ var TestMyCode = {
       newDiv.style.height="300px";
       newDiv.style.width="300px";
       newDiv.style.border="5px solid black";
-      newDiv.style.display="inline-block";
+      newDiv.style.display="block";
 
       var testResults = document.getElementById('testResults');
       testResults.appendChild(newDiv);

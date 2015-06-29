@@ -1,7 +1,7 @@
-function hello_joe(name){
+function hello_joe(username){
 
-if(name === "Joe" || name === "Bob"){
-	return "Hello!"+name ;
+if(username === "Joe" || username === "Bob"){
+	return "Hello!"+username ;
 
 }
 else{

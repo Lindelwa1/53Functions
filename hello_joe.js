@@ -1,12 +1,10 @@
 function hello_joe(username){
 
 if(username === "Joe" || username === "Bob"){
-	return "Hello!"+username ;
+	return "Hello!";
 
 }
 else{
-
- return "Hello!"
-
+return "Hello " + username +"!";
   }
 }

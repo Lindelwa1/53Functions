@@ -30,7 +30,7 @@ QUnit.test("upper test" ,function( assert ){
 
 });
 QUnit.test("reverse test" ,function( assert ){
-	assert.equal(reverse("Getting there!"));
+	assert.equal(reverse("ereht gnitteG!"));
 
 });
 

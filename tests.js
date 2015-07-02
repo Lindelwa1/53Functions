@@ -21,12 +21,12 @@ QUnit.test("sum_numbers test" ,function( assert ){
 
 });
 QUnit.test("length test" ,function( assert ){
-	assert.equal(length(4));
+	assert.equal(length("this is done"), 12);
 
 });
 
 QUnit.test("upper test" ,function( assert ){
-	assert.equal(upper("GETTING"),"Getting!GETTING");
+	assert.equal(upper("getting"), "GETTING");
 
 });
 QUnit.test("reverse test" ,function( assert ){

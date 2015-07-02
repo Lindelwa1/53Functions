@@ -1,5 +1,5 @@
  function upper(name){
- 	return "Getting!" + name.toUpperCase();
+ 	return name.toUpperCase();
  };
 
 

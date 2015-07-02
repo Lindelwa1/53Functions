@@ -1,3 +1,4 @@
-var length = function(done){
-	return done.length;
+var length = function(paramIn){
+	var str = paramIn + "";
+	return str.length;
 }

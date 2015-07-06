@@ -38,3 +38,9 @@ QUnit.test("hello_list test" ,function( assert ){
 	assert.equal(hello_list(2), "hello world,hello world");
 
 });
+
+QUnit.test("high_low test", function(assert){
+	var array = [1,2,3,4];
+	var result = "max =4min =1";
+   deepEqual(high_low(array),result);
+});

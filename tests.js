@@ -48,3 +48,19 @@ QUnit.test("high_low test", function(assert){
 QUnit.test("count_words test", function(assert){
   assert.equal(count_words("hello world"),2);
 });
+
+QUnit.test("sum_word_len function", function(assert){
+var results =sum_word_len(11);
+	assert.equal(results,11);
+});
+
+
+QUnit.test("longest_word function", function( assert){
+	assert.equal(longest_word("hello world"),"hello");
+});
+QUnit.test("shortest_word function",function(assert){
+	assert.equal(shortest_word("world"),"world");
+});
+
+
+

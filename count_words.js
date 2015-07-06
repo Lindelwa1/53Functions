@@ -1,6 +1,6 @@
- function WordCount(str) {
+ function count_words(str) {
     var totalSoFar = 0;
-    for (var i = 0; i < WordCount.length; i++)
+    for (var i = 0; i < count_words.length; i++)
      if (str(i) === " ") { // if a space is found in str
        totalSoFar = +1; //add 1 to total so far
     }

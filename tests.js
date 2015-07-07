@@ -56,10 +56,8 @@ QUnit.test("sum_word_len function", function(assert){
 });
 
 
-QUnit.test("longest_word function", function( assert){
-	var results = longest_word("molweni maxhosakuthi")
-	assert.equal(results,20);
+QUnit.test("longest_word test" ,function( assert ){
+	var results = longest_word("maxhosakuthi",12);
+    assert.deepEqual(longest_word("molweni maxhosakuthi,12"),["maxhosakuthi",12].toString());
 });
-
-
 

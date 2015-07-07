@@ -16,9 +16,9 @@
 
 
 function longest_word(january) {
-    var jr = january.split(" ");
-    var longest = 0;
-    var travis = null;
+    var jr = january.split(" ");   // the result will be an array with the values:
+    var longest = 0;               // declaring 
+    var travis = null;             //equal to nothing
     for (var i = 0; i < jr.length; i++) { //comparing all the items in the array
         if (longest < jr[i].length) {
             longest = jr[i].length;
@@ -27,3 +27,20 @@ function longest_word(january) {
     }
     return travis.length;
 }
+
+
+/**function longest_word(string) {
+    var str = string.split(" ");
+    var longest = 0;
+    var word = null;
+
+    str.forEach(function(str) {
+        if (longest < str.length) {
+            longest = str.length;
+            word = str;
+        }
+    });
+
+return word;
+}**/
+

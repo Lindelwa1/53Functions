@@ -1,4 +1,4 @@
-function longest_word(str)  
+/**function longest_word(str)  
 {  
   var array1 = str.match(/\w[a-z]{0,}/gi);  
   var result = array1[0];  
@@ -11,4 +11,19 @@ function longest_word(str)
     }   
   }  
   return result;  
-}  
+}**/
+
+
+
+function longest_word(january) {
+    var jr = january.split(" ");
+    var longest = 0;
+    var travis = null;
+    for (var i = 0; i < jr.length; i++) { //comparing all the items in the array
+        if (longest < jr[i].length) {
+            longest = jr[i].length;
+            travis = jr[i];
+        }
+    }
+    return travis.length;
+}

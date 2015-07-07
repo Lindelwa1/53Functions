@@ -46,20 +46,19 @@ QUnit.test("high_low test", function(assert){
 });
 
 QUnit.test("count_words test", function(assert){
+	var results = count_words("hello world");
   assert.equal(count_words("hello world"),2);
 });
 
 QUnit.test("sum_word_len function", function(assert){
-var results =sum_word_len(11);
-	assert.equal(results,11);
+    var results = sum_word_len("Getting help today");
+	assert.deepEqual(results,18);
 });
 
 
 QUnit.test("longest_word function", function( assert){
-	assert.equal(longest_word("hello world"),"hello");
-});
-QUnit.test("shortest_word function",function(assert){
-	assert.equal(shortest_word("world"),"world");
+	var results = longest_word("molweni maxhosakuthi")
+	assert.equal(results,12);
 });
 
 

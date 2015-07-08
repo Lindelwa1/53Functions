@@ -25,11 +25,10 @@ function longest_word(january) {
             travis = jr[i];
         }
     }
-    return travis.length;
+ 
+return travis.lenght;
 }
-
-
-function longest_word(string) {
+/**function longest_word(string) {
     var str = string.split(" ");
     var longest = 0;
     var word = null;
@@ -39,9 +38,10 @@ function longest_word(string) {
             longest = str.length;
             word = str;
         }
-    })
+    };
 
 return word;
+}**/
 
 
 
@@ -54,5 +54,5 @@ return word;
       }
     }
     return[travis,travis.length];
- **/}
+ }**/
 

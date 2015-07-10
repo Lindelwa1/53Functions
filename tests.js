@@ -57,7 +57,11 @@ QUnit.test("sum_word_len function", function(assert){
 
 
 QUnit.test("longest_word test" ,function( assert ){
-	var results = longest_word("maxhosakuthi",12);
-    assert.deepEqual(longest_word("maxhosakuthi,12"),["maxhosakuthi,12"].toString());
+	var results = longest_word("molweni maxhosakuthi");
+    assert.deepEqual(results,["maxhosakuthi",12]);
 });
 
+QUnit.test("shortest_word test" ,function( assert ){
+	var results = shortest_word("molweni nonke maxhosakuthi");
+    assert.deepEqual(results,["nonke",5]);
+});

@@ -65,3 +65,9 @@ QUnit.test("shortest_word test" ,function( assert ){
 	var results = shortest_word("molweni nonke maxhosakuthi");
     assert.deepEqual(results,["nonke",5]);
 });
+
+QUnit.test("word_length test", function(assert){
+	expected = [6,5];
+	var results = word_length("codex is really helpfull");
+  assert.equal(results.toString(),expected.toString());
+});
